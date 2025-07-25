@@ -1,0 +1,80 @@
+body {
+  /* 清除預設margin和padding */
+  margin: 0;
+  padding: 0;
+  /* 設定 Popup 視窗的寬高 */
+  width: 250px;
+  height: 150px;
+  /* 增加一個背景色，讓 Popup 邊界更明顯，視覺效果更好 */
+  background-color: #f8f8f8; /* 淺灰色 */
+}
+
+.FullScreenButtonContainer {
+  /* 讓容器佔滿 body 的空間，以便在其中置中按鈕 */
+  width: 100%;
+  height: 100%;
+
+  /* 置中 #FullScreenButton */
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center;     /* 垂直置中 */
+
+  /* 這裡不需要額外的 background-color，除非你希望容器有獨特的顏色 */
+}
+
+/* 這是主要的按鈕樣式定義。
+   你把 .button-6 的樣式錯誤地嵌套在 #FullScreenButton 裡了。
+   這裡直接將其作為 #FullScreenButton 的樣式。
+   如果這套樣式是你從網路上找來的通用按鈕樣式，
+   更推薦的做法是把 <button id="FullScreenButton"> 改成 <button class="button-6" id="FullScreenButton">
+   然後 CSS 就直接針對 .button-6 來寫。
+   但如果這套樣式只給這個按鈕用，那直接定義在 ID 下是沒問題的。
+*/
+#FullScreenButton {
+  /* 直接將你從 .button-6 複製過來的樣式貼在這裡 */
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex; /* 或 block，inline-flex 適合按鈕內容 */
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0; /* 這裡的 margin: 0; 對於 flex item 是可以的，確保沒有多餘的邊距 */
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto; /* width: auto; 讓寬度根據內容自動調整 */
+}
+
+/* 針對 hover, focus, active 狀態的樣式，直接選取 #FullScreenButton */
+#FullScreenButton:hover,
+#FullScreenButton:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#FullScreenButton:hover {
+  transform: translateY(-1px);
+}
+
+#FullScreenButton:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
