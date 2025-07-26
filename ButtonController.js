@@ -9,6 +9,8 @@ FullscreenButton.addEventListener("click", function() {
   chrome.runtime.sendMessage({type:"FullscreenButton", data:IsPushed}, function(response) {
     console.log(response);
   });
+  //按鈕被按下後關閉彈出視窗
+  window.close();
 });
 
 

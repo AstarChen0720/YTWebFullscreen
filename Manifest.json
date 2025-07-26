@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "YTWebFullscreen",
+  "version": "alpha-1",
+  "description": "A Chrome extension for YouTube web fullscreen.",
+  "icons": {
+    "128": "fullscreen.png"
+  },
+  "homepage_url": "https://github.com/AstarChen0720/YTWebFullscreen",
+  "author": "AstarChen",
+  "action":{
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "fullscreen.png"
+    }
+  },
+  "permissions" : [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "ExtensionManager.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["EnvironmentInfoCollector.js","NewwindowOpener.js"]
+    }
+  ]
+}

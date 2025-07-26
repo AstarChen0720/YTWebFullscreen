@@ -26,5 +26,23 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
       });
       break;
 
+      case "NewwindowOpener已開啟新視窗":
+        //新視窗開啟後，將VideoFiller.js注入到新視窗中
+        chrome.tabs.query({ windowId: message.data.windowId }, (tabs) => {
+          const tabId = tabs[0].id;//第一tab的ID(tab0)
+          chrome.scripting.executeScript({
+            target: { tabId },
+            files: ["VideoFiller.js"]
+          }, () => {
+            //用chrome.tabs.sendMessage因為他是要傳給指定tab
+            chrome.tabs.sendMessage(tabId, {
+              action: "VideoFiller請將播放器網頁全螢幕",
+              data: message.data
+            }, function(response) {
+              console.log(response);
+            });
+          });
+        });
+      break; 
   }
-})
+});

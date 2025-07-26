@@ -9,12 +9,12 @@ body {
   background-color: #f8f8f8; /* 淺灰色 */
 }
 
-.FullScreenButtonContainer {
+.FullscreenButtonContainer {
   /* 讓容器佔滿 body 的空間，以便在其中置中按鈕 */
   width: 100%;
   height: 100%;
 
-  /* 置中 #FullScreenButton */
+  /* 置中 #FullscreenButton */
   display: flex;
   justify-content: center; /* 水平置中 */
   align-items: center;     /* 垂直置中 */
@@ -30,7 +30,7 @@ body {
    然後 CSS 就直接針對 .button-6 來寫。
    但如果這套樣式只給這個按鈕用，那直接定義在 ID 下是沒問題的。
 */
-#FullScreenButton {
+#FullscreenButton {
   /* 直接將你從 .button-6 複製過來的樣式貼在這裡 */
   align-items: center;
   background-color: #FFFFFF;
@@ -59,19 +59,19 @@ body {
   width: auto; /* width: auto; 讓寬度根據內容自動調整 */
 }
 
-/* 針對 hover, focus, active 狀態的樣式，直接選取 #FullScreenButton */
-#FullScreenButton:hover,
-#FullScreenButton:focus {
+/* 針對 hover, focus, active 狀態的樣式，直接選取 #FullscreenButton */
+#FullscreenButton:hover,
+#FullscreenButton:focus {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   color: rgba(0, 0, 0, 0.65);
 }
 
-#FullScreenButton:hover {
+#FullscreenButton:hover {
   transform: translateY(-1px);
 }
 
-#FullScreenButton:active {
+#FullscreenButton:active {
   background-color: #F0F0F1;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;

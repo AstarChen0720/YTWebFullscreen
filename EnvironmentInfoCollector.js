@@ -7,8 +7,8 @@ chrome.runtime.onMessage.addListener(function(message, sendResponse) {
     url: window.location.href,
     width: window.innerWidth,
     height: window.innerHeight,
-    top: currentWindow.top,
-    left: currentWindow.left,
+    top: window.screenTop,
+    left: window.screenLeft,
     };
 
     //回傳環境資訊給ExtensionManager

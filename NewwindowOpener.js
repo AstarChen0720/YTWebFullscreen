@@ -12,13 +12,15 @@ chrome.runtime.onMessage.addListener(function(message, sendResponse) {
       height: message.data.height,
       top: message.data.top-10,//視窗頂部跟螢幕最上距離-10
       left: message.data.left+10,//視窗左邊跟螢幕最左距離+10
-    },function(){//通知ExtensionManager已開啟新視窗
+    },function(newWindow){//通知ExtensionManager已開啟新視窗
       chrome.runtime.sendMessage({
-        event: "NewwindowOpener已開啟新視窗"
+        event: "NewwindowOpener已開啟新視窗",
+        data: {windowId : newWindow.id},
       }, function(response) {
         console.log(response)
       });
     }); 
   }
-
+  //加個保險
+  return true
 })
