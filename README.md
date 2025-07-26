@@ -1,0 +1,1 @@
+這是一個可以將youtube影片網頁全螢幕的chrome extension
