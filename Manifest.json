@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YTWebFullscreen",
-  "version": "alpha-1",
+  "version": "0.1",
   "description": "A Chrome extension for YouTube web fullscreen.",
   "icons": {
     "128": "fullscreen.png"
@@ -19,13 +19,16 @@
     "scripting",
     "tabs"
   ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
   "background": {
     "service_worker": "ExtensionManager.js"
   },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
-      "js": ["EnvironmentInfoCollector.js","NewwindowOpener.js"]
+      "js": ["EnvironmentInfoCollector.js"]
     }
   ]
 }
