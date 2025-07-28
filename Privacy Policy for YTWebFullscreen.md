@@ -10,6 +10,7 @@ YTWebFullscreen 的核心宗旨是提供更佳的觀影體驗，同時完全尊�
 不收集：本擴充功能不會收集、讀取或存取任何您的個人身份資訊（Personally Identifiable Information, PII），例如您的姓名、電子郵件、YouTube 帳號、觀看紀錄或瀏覽歷史。
 不儲存：本擴充功能不會在您的電腦或任何遠端伺服器上儲存任何使用者資料。
 不傳輸：本擴充功能不會將任何資料傳輸到開發者或任何第三方服務。
+
 2. 擴充功能運作所需的資訊
 
 為了實現「網頁全螢幕」功能，當您點擊擴充功能按鈕時，我們會暫時讀取以下非個人化的瀏覽器視窗資訊：
@@ -26,6 +27,7 @@ activeTab：允許擴充功能在您點擊圖示時，與當前活動的 YouTube
 scripting：用於將腳本注入到新的 YouTube 視窗中，以調整影片播放器的樣式，使其填滿整個視窗。
 tabs：用於在新視窗建立後，偵測其載入狀態並執行腳本。
 host_permissions (https://www.youtube.com/*)：將擴充功能的功能範圍限制在 YouTube 網站上。
+
 4. 政策變更
 
 如果未來擴充功能有任何更新，可能影響本隱私權政策，我們將會更新此文件，並在擴充功能的說明頁面中通知您。
@@ -46,6 +48,7 @@ The core principle of YTWebFullscreen is to enhance your viewing experience whil
 No Collection: This extension does not collect, read, or access any of your Personally Identifiable Information (PII), such as your name, email, YouTube account, viewing history, or browsing data.
 No Storage: This extension does not store any user data on your local machine or any remote servers.
 No Transmission: This extension does not transmit any data to the developer or any third-party services.
+
 2. Information Required for Functionality
 
 To enable the "Web Fullscreen" feature, when you click the extension button, we temporarily access the following non-personal browser window information:
@@ -62,6 +65,7 @@ activeTab: Allows the extension to interact with the currently active YouTube ta
 scripting: Used to inject scripts into the new YouTube window to modify the video player's style to fill the window.
 tabs: Used to detect the loading status of the new window to execute scripts after it's ready.
 host_permissions (https://www.youtube.com/*): Limits the extension's functionality to the YouTube website.
+
 4. Changes to This Policy
 
 If any future updates to the extension affect this privacy policy, we will update this document and notify you through the extension's description page.
