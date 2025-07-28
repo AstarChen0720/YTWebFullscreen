@@ -35,6 +35,7 @@ host_permissions (https://www.youtube.com/*)：將擴充功能的功能範圍限
 5. 聯絡我們
 
 如果您對本隱私權政策有任何疑問，歡迎透過我們的 GitHub 專案頁面 與我們聯繫。
+https://github.com/AstarChen0720/YTWebFullscreen
 
 Privacy Policy for YTWebFullscreen
 Last Updated: July 28, 2025
@@ -73,3 +74,4 @@ If any future updates to the extension affect this privacy policy, we will updat
 5. Contact Us
 
 If you have any questions about this privacy policy, please feel free to contact us via our GitHub project page.
+https://github.com/AstarChen0720/YTWebFullscreen
