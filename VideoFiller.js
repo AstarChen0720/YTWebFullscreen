@@ -49,6 +49,7 @@ console.log("VideoFiller.js 已注入，準備執行網頁全螢幕...");
       //取得youtube撥放器(影片部分)的元素(用ID)
       const videoPlayer = document.querySelector("#movie_player");
 
+
       if(videoPlayer){
         console.log("找到播放器，正在套用自定義全螢幕樣式");
         clearInterval(intervalId); // 停止檢查
@@ -56,34 +57,48 @@ console.log("VideoFiller.js 已注入，準備執行網頁全螢幕...");
         // 步驟 1: 檢查並點擊劇院模式按鈕
         // 取得劇院模式按鈕的選擇器
         const theaterButton = document.querySelector(".ytp-size-button");
-        // 檢查播放器是否已經是劇院模式 (通常劇院模式按鈕會有一個標題 "預設檢視模式")
-        const isAlreadyTheater = theaterButton.title.includes("預設");
-        if (isAlreadyTheater) {
-            console.log("已經是劇院模式，透過切換來強制重繪UI");
-            // 點擊離開劇院模式
-            theaterButton.click();
-            // 等150毫秒再點擊一次回到劇院模式以強制重繪
-            setTimeout(() => theaterButton.click(), 150);
-        } else if (theaterButton) {
-            console.log("點擊劇院模式按鈕...");
-            theaterButton.click();
+        // 如果找不到劇院模式按鈕，則輸出錯誤訊息並返回
+        if (!theaterButton) {
+            console.error("找不到劇院模式按鈕。");
+            return;
         }
 
+        // 步驟 2: 確保進入劇院模式
+        // 使用 ytd-watch-flexy[theater] 屬性來判斷，比按鈕標題更可靠
+        const isInTheater = document.querySelector("ytd-watch-flexy[theater]");
 
+        //如果在劇院模式，則先點擊退出劇院模式
+        if (isInTheater) {
+            console.log("當前在劇院模式，先點擊退出...");
+            theaterButton.click();
+        } else {
+            console.log("當前在標準模式，準備進入劇院模式...");
+        }
 
-        // 將自定義的全螢幕樣式套用到播放器元素
-        //在外面再加上一個延遲確保劇院模式已經套用
+        // 等待 300ms，確保已退回到標準模式或保持在標準模式
         setTimeout(() => {
-          document.body.classList.add("web-fullscreen-mode"); // 添加全螢幕模式的類別
-          videoPlayer.classList.add("CustomFullscreenStyle");
+            console.log("點擊以進入/重新進入劇院模式...");
+            // 重新獲取按鈕，防止參考失效
+            const currentButton = document.querySelector(".ytp-size-button");
+            if (currentButton) {
+                currentButton.click();
+            }
+            setTimeout(() => {
+            console.log("套用自定義全螢幕樣式...");
+            document.body.classList.add("web-fullscreen-mode"); // 添加全螢幕模式的類別
+            videoPlayer.classList.add("CustomFullscreenStyle");
 
-          //手動觸發window的resize事件，很多網頁的UI條整都是看這個
-          // 延遲觸發，確保樣式已套用
-          setTimeout(() => {
-              window.dispatchEvent(new Event("resize"));
-              console.log("網頁全螢幕已觸發。");
-          }, 100); // 延遲 100 毫秒
-        },150);// 延遲 150 毫秒，確保劇院模式已經套用
+            //手動觸發window的resize事件，很多網頁的UI條整都是看這個重新調整的
+            window.dispatchEvent(new Event("resize"));
+            console.log("網頁全螢幕已觸發。");
+
+          }, 1000);// 延遲 1000 毫秒，確保劇院模式已經穩定套用
+        },300);//延遲300毫秒，確保已退回到標準模式或保持在標準模式
+
+
+        //步驟 3:將自定義的全螢幕樣式套用到播放器元素
+        //在外面再加上一個延遲確保劇院模式已經套用
+        
 
       }else{
         // 沒找到，繼續等待
