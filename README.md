@@ -1,8 +1,8 @@
-[英文介紹](#this-is-a-chrome-extension-that-allows-you-to-view-youtube-videos-in-full-screen-mode)
-[日文介紹](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
+[English](#this-is-a-chrome-extension-that-allows-you-to-view-youtube-videos-in-full-screen-mode)
+[日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
 # 這是一個可以將youtube影片網頁全螢幕的chrome extension
-## 使用步驟
+## 使用教學
 ### 第一步:點選右上角擴充功能選項
 
 <img width="1042" height="601" alt="YTWebFullscreen_Tutorial_step1" src="https://github.com/user-attachments/assets/17670bcf-ce99-4c81-948f-c00a92293790" />
@@ -29,7 +29,7 @@
   * 新視窗會loading比較久
   * 全螢幕的那個新視窗如果跳出影片想當成一般youtube使用的話會有很多bug
   * 全螢幕的那個新視窗仍無法做到跟真的全螢幕一樣的交互
-### 未來希望新增的功能:
+### 希望新增的功能:
   * 有選項讓人選擇要不要在當前視窗執行網頁全螢幕
   * 可以始終顯示在最上層
   * 自動裁切影片黑邊並盡可能填滿視窗
@@ -42,8 +42,8 @@
 <br>
 
 
-# This is a Chrome extension that allows you to view YouTube videos in full screen mode.[回到頂部](#top)
-## Steps to use
+# This is a Chrome extension that allows you to view YouTube videos in full-screen mode.
+## How to use
 ### Step 1: Click on the extension option in the upper right corner.
 
 <img width="1042" height="601" alt="YTWebFullscreen_Tutorial_step1" src="https://github.com/user-attachments/assets/17670bcf-ce99-4c81-948f-c00a92293790" />
@@ -70,19 +70,19 @@ So whether it's a wild idea or a minor inconvenience, please tell me everything.
   * The new window takes longer to load.
   * If you exit the full-screen new window and want to use it as a regular YouTube video, there are many bugs.
   * The full-screen new window still cannot achieve the same interaction as true full-screen mode.
-### Future features we hope to add:
+### Future features :
   * An option to choose whether to enable full-screen mode in the current window
   * Always stay on top
   * Automatically crop video black borders and fill the window as much as possible
 
-[回到頂部](#top)
+[back to top](#top)
 
 <br>
 <br>
 <br>
 
 # これはYouTubeの動画を全画面表示できるChrome拡張機能です
-## 使用手順
+## 使用方法
 ### ステップ1: 右上角の拡張機能オプションをクリック
 
 <img width="1042" height="601" alt="YTWebFullscreen_Tutorial_step1" src="https://github.com/user-attachments/assets/17670bcf-ce99-4c81-948f-c00a92293790" />
@@ -109,9 +109,9 @@ So whether it's a wild idea or a minor inconvenience, please tell me everything.
   * 新規ウィンドウの読み込みに時間がかかる
   * 全画面表示の新規ウィンドウで動画を閉じ、通常のYouTubeとして使用しようとすると、多くのバグが発生する
   * 全画面表示の新規ウィンドウは、本物の全画面表示と同じインタラクションを実現できない
-### 将来追加を希望する機能:
+### 追加を希望する機能:
   * 現在のウィンドウでウェブページを全画面表示するかどうかを選択できるオプション
   * 常に最前面に表示される機能
   * 動画の黒枠を自動でトリミングし、ウィンドウをできるだけ埋め尽くす機能
 
-[回到頂部](#top)
+[ページトップへ](#top)
