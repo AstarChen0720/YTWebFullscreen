@@ -11,7 +11,7 @@ FullscreenButton.addEventListener("click", function() {
     console.log(response);
   });
   //按鈕被按下後關閉彈出視窗
-  // window.close();
+  window.close();
 });
 
 
