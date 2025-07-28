@@ -62,8 +62,8 @@ console.log("VideoFiller.js 已注入，準備執行網頁全螢幕...");
             console.log("已經是劇院模式，透過切換來強制重繪UI");
             // 點擊離開劇院模式
             theaterButton.click();
-            // 等50毫秒再點擊一次回到劇院模式以強制重繪
-            setTimeout(() => theaterButton.click(), 50); 
+            // 等150毫秒再點擊一次回到劇院模式以強制重繪
+            setTimeout(() => theaterButton.click(), 150);
         } else if (theaterButton) {
             console.log("點擊劇院模式按鈕...");
             theaterButton.click();
