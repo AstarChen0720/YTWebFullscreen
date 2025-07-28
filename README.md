@@ -42,7 +42,7 @@
 <br>
 
 
-# This is a Chrome extension that allows you to view YouTube videos in full screen mode.
+# This is a Chrome extension that allows you to view YouTube videos in full screen mode.[回到頂部](#top)
 ## Steps to use
 ### Step 1: Click on the extension option in the upper right corner.
 
@@ -75,6 +75,7 @@ So whether it's a wild idea or a minor inconvenience, please tell me everything.
   * Always stay on top
   * Automatically crop video black borders and fill the window as much as possible
 
+[回到頂部](#top)
 
 <br>
 <br>
@@ -112,3 +113,5 @@ So whether it's a wild idea or a minor inconvenience, please tell me everything.
   * 現在のウィンドウでウェブページを全画面表示するかどうかを選択できるオプション
   * 常に最前面に表示される機能
   * 動画の黒枠を自動でトリミングし、ウィンドウをできるだけ埋め尽くす機能
+
+[回到頂部](#top)
