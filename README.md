@@ -2,12 +2,10 @@
 [日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
 
+# 這是一個可以將youtube影片網頁全螢幕的chrome extension
 
 ![YTWebFullscreenTrailer](https://github.com/user-attachments/assets/0076b53b-b3d0-4052-a64f-4cfd71fa849f)
 
-
-
-# 這是一個可以將youtube影片網頁全螢幕的chrome extension
 ## 使用教學
 ### 第一步:點選右上角擴充功能選項
 
@@ -50,6 +48,7 @@
 
 
 # This is a Chrome extension that allows you to view YouTube videos in full-screen mode.
+![YTWebFullscreenTrailer](https://github.com/user-attachments/assets/0076b53b-b3d0-4052-a64f-4cfd71fa849f)
 ## How to use
 ### Step 1: Click on the extension option in the upper right corner.
 
@@ -89,6 +88,7 @@ So whether it's a wild idea or a minor inconvenience, please tell me everything.
 <br>
 
 # これはYouTubeの動画を全画面表示できるChrome拡張機能です
+![YTWebFullscreenTrailer](https://github.com/user-attachments/assets/0076b53b-b3d0-4052-a64f-4cfd71fa849f)
 ## 使用方法
 ### ステップ1: 右上角の拡張機能オプションをクリック
 
