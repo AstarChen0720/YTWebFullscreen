@@ -1,6 +1,9 @@
 [English](#this-is-a-chrome-extension-that-allows-you-to-view-youtube-videos-in-full-screen-mode)
 [日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
+
+https://www.youtube.com/watch?v=7aVDQbRwC7A
+
 # 這是一個可以將youtube影片網頁全螢幕的chrome extension
 ## 使用教學
 ### 第一步:點選右上角擴充功能選項
