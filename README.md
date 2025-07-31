@@ -2,6 +2,8 @@
 [日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
 
+https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp
+
 # 這是一個可以將youtube影片網頁全螢幕的chrome extension
 
 ![YTWebFullscreenTrailer](https://github.com/user-attachments/assets/0076b53b-b3d0-4052-a64f-4cfd71fa849f)
