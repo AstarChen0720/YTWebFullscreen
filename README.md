@@ -2,7 +2,9 @@
 [日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
 
-https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp
+[![chrome extension 圖片](<img width="768" height="667" alt="Google_Chrome_Web_Store_icon_2022 svg" src="https://github.com/user-attachments/assets/1de3e355-9287-4fd9-bb61-bb1ae8268b00" />
+)]((https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp))
+
 
 # 這是一個可以將youtube影片網頁全螢幕的chrome extension
 
