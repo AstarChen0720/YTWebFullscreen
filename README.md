@@ -2,8 +2,14 @@
 [日本語](#これはyoutubeの動画を全画面表示できるchrome拡張機能です)
 <a id="top"></a>
 
-[![chrome extension 圖片](<img width="768" height="667" alt="Google_Chrome_Web_Store_icon_2022 svg" src="https://github.com/user-attachments/assets/1de3e355-9287-4fd9-bb61-bb1ae8268b00" />
-)]((https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp))
+
+<a href="https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp" title="點擊圖片獲取 chroome extension">
+<img src="https://private-user-images.githubusercontent.com/50765596/472812115-57ef4045-81de-400a-8958-22b3af26dcb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5MzYwNzgsIm5iZiI6MTc1MzkzNTc3OCwicGF0aCI6Ii81MDc2NTU5Ni80NzI4MTIxMTUtNTdlZjQwNDUtODFkZS00MDBhLTg5NTgtMjJiM2FmMjZkY2I3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzMxVDA0MjI1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmYTA4Y2E5NTYwOGYzZWExMjUwZjkwNDFiZjgwMzg5ZTFlMmY3OTg4ZjM0Y2Q4ODNhYTNiZTlmNmE0YjM4ZDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.a-E1cXAlAPmK3KlnpYJzX1STMMJsD4rjwuMK8eCa1v0" alt="Logo" width="400" height="auto">
+</a>
+
+[YTWebFullscreen](https://chromewebstore.google.com/detail/ytwebfullscreen/ndjndijgelpdjlpbknikobhccgogmdgp)
+
+
 
 
 # 這是一個可以將youtube影片網頁全螢幕的chrome extension
